@@ -1,13 +1,13 @@
-import LanguagesService from './services/languages';
+import LanguagesService from './services/Languages';
 import Obsarvable from './services/Observable';
 import './styles/init.sass';
 
-const languages = new LanguagesService();
+const Languages = new LanguagesService();
 const Store = new Obsarvable();
 const $el = document.querySelector('#app');
 
 const init = () => {
-  languages
+  Languages
     .then( async (dictionary) => {
       await import('./components/item/item');
       await import('./components/basket/basket');
