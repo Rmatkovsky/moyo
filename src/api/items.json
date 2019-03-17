@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Some product 1",
+      "href": "https://google.com",
+      "img": "https://picsum.photos/96/96/?image=101",
+      "count": 1,
+      "price": 500
+    },
+    {
+      "id": 2,
+      "title": "Some product 2",
+      "href": "https://google.com",
+      "img": "https://picsum.photos/96/96/?image=132",
+      "count": 2,
+      "price": 400
+    },
+    {
+      "id": 3,
+      "title": "Some product 3",
+      "href": "https://google.com",
+      "img": "https://picsum.photos/96/96/?image=153",
+      "count": 1,
+      "price": 300
+    },
+    {
+      "id": 4,
+      "title": "Some product 4",
+      "href": "https://google.com",
+      "img": "https://picsum.photos/96/96/?image=114",
+      "count": 4,
+      "price": 200
+    },
+    {
+      "id": 5,
+      "title": "Some product 5",
+      "href": "https://google.com",
+      "img": "https://picsum.photos/96/96/?image=125",
+      "count": 15,
+      "price": 100
+    }
+  ]
+}

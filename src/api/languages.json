@@ -1,0 +1,9 @@
+{
+  "texts": {
+    "checkoutTitle": "Ваша корзина",
+    "totalSum": "Сумма заказа",
+    "quantity": "Количество",
+    "cartEmpty": "Ваша корзина пуста",
+    "currency": "грн"
+  }
+}

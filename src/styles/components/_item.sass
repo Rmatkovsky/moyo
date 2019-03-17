@@ -1,0 +1,51 @@
+.item
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-top: 10px
+  border-bottom: 1px solid #585858
+
+  .right
+    margin-bottom: 10px
+
+    .title
+      font-weight: 500
+
+    .info
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      width: 100%
+      margin-bottom: 20px
+
+      .price
+        font-size: 22px
+        font-weight: 500
+        margin-left: 20px
+
+    .sum
+      font-size: 22px
+      font-weight: 700
+
+    .control
+      border: 1px solid black
+      button, input
+        border: none
+        text-align: center
+
+      input
+        width: 40px
+
+  .left
+    border: 1px solid black
+    display: flex
+    flex-direction: column
+    padding: 20px
+    position: relative
+
+    .delete
+      cursor: pointer
+      color: red
+      top: 5px
+      right: 5px
+      position: absolute
